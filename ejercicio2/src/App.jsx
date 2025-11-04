@@ -28,9 +28,9 @@ export default function Stopwatch() {
 
   return (
     <div style={{ textAlign: 'center', fontFamily: 'Arial' }}>
-      <h2>Cronòmetre</h2>
+      <h2>Cronometro</h2>
       <p>{seconds} segons</p>
-      <button onClick={handleStart}>Començar</button>
+      <button onClick={handleStart}>Empezar</button>
       <button onClick={handleStop}>Parar</button>
 
       <div style={{ marginTop: '20px' }}>
